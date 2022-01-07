@@ -9,9 +9,9 @@ export default function Container(props: { [x: string]: any; children: any }) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: "Achuth Hadnoor – Developer, writer, maker.",
-    description: `Front-end developer, JavaScript enthusiast, and maker.`,
-    image: "https://achuth.dev/static/images/banner.png",
+    title: "Siva Krishna Abburi",
+    description: `UI/UX Designer`,
+    image: "https://achuth.dev/static/images/banner.png",// Display Image when URL is shared
     type: "website",
     date: "1-1-2022",
     ...customMeta,
