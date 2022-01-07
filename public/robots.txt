@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://achuth.dev
+
+# Sitemaps
+Sitemap: https://achuth.dev/sitemap.xml
